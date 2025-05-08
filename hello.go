@@ -15,7 +15,7 @@ func main() {
 	fmt.Println("3- Sair do programa")
     var comando int
 	//É uma função que recebe dois argumrntos, um modificador (valor de entrada) e um ponteiro que receberá o valor de entrada
-	fmt.Scanf("%d",&comando)
+	fmt.Scan(&comando)
 	// o simbolo & siginifica o endereço da váriavel
 	fmt.Println("O endereço da variavel é",&comando)
 	fmt.Println("O comando escolhido foi ",comando)
